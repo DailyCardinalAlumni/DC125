@@ -1,0 +1,40 @@
+<header>
+  <nav class="page__prime-nav" role="navigation">
+    <div class="menu-wrapper" data-hook="global-menu:wrapper">
+      <ul class="global-menu" id="global-menu">
+        <li><h1><a href="{{ site.baseurl }}/"><img src="{{site.baseurl}}/assets/graphics/content/clean_logo.svg" class="global-menu__logo"/></a></h1></li>
+        <li><a href="{{ site.baseurl }}/history" title="View page" class="global-menu__link"><span>Our History</span></a></li>  
+        <li class="global-menu__divider">|</li>
+        <li><a href="{{ site.baseurl }}/agenda" title="View page" class="global-menu__link"><span>Agenda</span></a></li>
+        <li class="global-menu__divider">|</li>
+        <li><a href="{{ site.baseurl }}/speakers" title="View page" class="global-menu__link"><span>Speakers</span></a></li>
+        <li class="global-menu__divider">|</li>
+        <li><a href="{{ site.baseurl }}/gala" title="View page" class="global-menu__link"><span>Alumni Gala</span></a></li>
+        <li class="global-menu__divider">|</li>
+        <li><a href="{{ site.baseurl }}/lodging" title="View page" class="global-menu__link"><span>Lodging</span></a></li>
+        <li class="global-menu__divider">|</li>
+        <li><a href="{{ site.baseurl }}/donate" title="View section" class="global-menu__link"><span>Donate</span></a></li>
+        <span class="stretch"></span>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="page__masthead">
+  <div class="masthead-left">
+    Madison, WI
+  </div>
+  <div class="masthead-center masthead-center__{{page.header}}">
+    <img src='{{site.baseurl}}/assets/graphics/content/logo.svg'/>
+  </div>
+  <div class="masthead-right">
+    April 10-11
+  </div>
+</div>
+
+<div class="full-image__fix full-fix__{{page.header}}"></div>
+<div class="full-image__container full-image__{{page.header}}"></div>
+
+{% if page.header == 'full' %}
+<button class="full-image__button">Join the Party</button>
+{% endif %}

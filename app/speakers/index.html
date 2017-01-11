@@ -1,0 +1,35 @@
+---
+layout: default
+header: half
+
+---
+
+</div>
+<div class="speaker-color-backing">
+	<section class="section-container">
+		<header class="section-header"><h2>Speakers</h2></header>
+		<div class="section-header__filler"></div>
+
+		<div class="speaker-container">
+		{% for s in site.speakers %}
+			<div class="speaker-item {% if forloop.rindex0 < 2 %}speaker-item__last{% endif %}">
+				<div class="speaker-item__box">
+					<div class="speaker-item__image">
+						<img src="{{site.baseurl}}/assets/graphics/speakers/null.jpg"/>
+					</div>
+					<div class="speaker-item__info">
+						<a href=""><h3 class="speaker-item__name">{{s.title}}</h3></a>
+						<p>{{s.company}}</p>
+						<p>{{s.role}}</p>
+						<div class="speaker-item__footer speaker-item__button">
+							Full Profile<i class="collecticon collecticon-link-out"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+
+	</section>
+</div>
+<div class="inner">

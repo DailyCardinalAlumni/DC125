@@ -1,0 +1,27 @@
+# Site settings
+title: Daily Cardinal 125
+safe:           false
+source:         app
+exclude:
+  - assets/scripts
+  - assets/vendor
+  - assets/styles
+  - README.md
+timezone: America/New_York
+highlighter: false 
+
+baseurl: ""
+
+##
+# Collections definitions
+##
+
+collections:
+  events:
+    output: true
+    permalink: /agenda/:slug/
+  speakers:
+    output: true
+    permalink: /speakers/:path/
+  sponsors:
+    output: false
