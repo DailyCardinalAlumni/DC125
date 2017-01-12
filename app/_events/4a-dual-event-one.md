@@ -3,7 +3,7 @@ title: "Multi Event - Example One"
 type: Talk
 time: "13:00 - 13:45am"
 split: a
-duration: 15min
+duration: 15 min
 room: Location A
 speakers:
   - Phil Jaracko

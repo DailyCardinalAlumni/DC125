@@ -3,7 +3,7 @@ title: Single Event
 type: Talk
 time: "10:00 - 10:45am"
 split: 
-duration: 10min
+duration: 10 min
 room: Location A
 speakers:
   - Phil Jaracko

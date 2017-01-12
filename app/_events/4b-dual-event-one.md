@@ -1,5 +1,5 @@
 ---
-title: "\"
+title: "Jimmy Bean Two Shoes"
 type: Talk
 time: "13:00 - 13:45am"
 split: b

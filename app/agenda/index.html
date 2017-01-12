@@ -4,44 +4,99 @@ header: half
 
 ---
 
+</div>
+<header class="section-header"><h2>Agenda</h2></header>
+<div class="section-header__filler"></div>
+
 <section class="event-container">
-	<header class="section-header"><h2>Agenda</h2></header>
-	<div class="section-header__filler"></div>
 
-	<div class="events-container">
-		{% for e in site.events %}
-			<div class="event-item">
+	<div class="inner">
+		<div class="events-container">
+			{% for e in site.events %}
 
-				{% if e.type == "operations" %}
-					<div class="event-time event-time__ops">{{ e.time }}</div>
-					<div class="event-title event-title__ops">{{e.title}}</div>
-					<div class="event-location event-location__ops">{{e.room}}</div>
-
-				{% else %}
-					<div class="event-time event-time__full">{{e.time}}</div>
-
-					<div class="event-details {% if e.split %}event-details__{{e.split}}{% endif %}">
+				{% if e.split == "b" %}
+					<div class="event-details__b">
 						<header>
 							<div class="event-location">{{e.room}}</div>
 							<div class="event-duration">{{e.duration}}</div>
 						</header>
-						<div class="event-title">{{e.title}}</div>
-						<div class="event-description">{{e.description}}</div>
-						<div class="event-speakers">
-							{% for p in e.speakers %}
-								{% for s in site.speakers %}
-									{% if p == s.speakers %}
-										<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
-									{% endif %}
+						<div class="event-details__sub">
+							<div class="event-title"><a>{{e.title}}</a></div>
+							<div class="event-description">{{e.description}}</div>
+							<div class="event-speakers">
+								{% for p in e.speakers %}
+									{% for s in site.speakers %}
+										{% if p == s.speakers %}
+											<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
+										{% endif %}
+									{% endfor %}
 								{% endfor %}
-							{% endfor %}
+							</div>
 						</div>
 					</div>
+				</div>
+
+				{% else %}
+					<div class="event-item">
+
+						{% if e.type == "operations" %}
+							<div class="event-time event-time__ops">{{ e.time }}</div>
+							<div class="event-title event-title__ops">{{e.title}}</div>
+							<div class="event-location event-location__ops">{{e.room}}</div>
+
+						{% elsif e.split == "a" %}
+							<div class="event-time event-time__full">{{e.time}}</div>
+
+							<div class="event-details event-details__split">
+								<div class="event-details__a">
+									<header>
+										<div class="event-location">{{e.room}}</div>
+										<div class="event-duration">{{e.duration}}</div>
+									</header>
+									<div class="event-details__sub">
+										<div class="event-title"><a>{{e.title}}</a></div>
+										<div class="event-description">{{e.description}}</div>
+										<div class="event-speakers">
+											{% for p in e.speakers %}
+												{% for s in site.speakers %}
+													{% if p == s.speakers %}
+														<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
+													{% endif %}
+												{% endfor %}
+											{% endfor %}
+										</div>
+									</div>
+
+						{% else %}
+							<div class="event-time event-time__full">{{e.time}}</div>
+
+							<div class="event-details">
+								<header>
+									<div class="event-location">{{e.room}}</div>
+									<div class="event-duration">{{e.duration}}</div>
+								</header>
+								<div class="event-details__sub">
+									<div class="event-title"><a>{{e.title}}</a></div>
+									<div class="event-description">{{e.description}}</div>
+									<div class="event-speakers">
+										{% for p in e.speakers %}
+											{% for s in site.speakers %}
+												{% if p == s.speakers %}
+													<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
+												{% endif %}
+											{% endfor %}
+										{% endfor %}
+									</div>
+								</div>
+							</div>
+						{% endif %}
+
+					</div>
 				{% endif %}
+			{% endfor %}
 
-			</div>
-		{% endfor %}
-
+		</div>
 	</div>
-
 </section>
+
+<div class="inner">
