@@ -10,7 +10,7 @@ exclude:
 timezone: America/New_York
 highlighter: false 
 
-baseurl: "DC125/"
+baseurl: "/"
 
 ##
 # Collections definitions
