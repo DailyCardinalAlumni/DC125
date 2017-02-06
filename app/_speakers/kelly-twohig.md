@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Kelly Twohig
 image: kelly-twohig
 company: Google

@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Jerry Alperstein
 image: jerry-alperstein
 company: 

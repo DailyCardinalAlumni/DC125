@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Steve Kerch
 image: steve-kerch
 company: MarketWatch

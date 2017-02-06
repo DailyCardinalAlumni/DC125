@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Nancy Bobrowitz
 image: nancy-bobrowitz
 company: Columbia University

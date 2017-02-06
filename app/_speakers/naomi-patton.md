@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Naomi Patton
 image: naomi-patton
 company: Weber Shandwick’s Social Impact

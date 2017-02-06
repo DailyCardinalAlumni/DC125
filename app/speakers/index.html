@@ -15,10 +15,10 @@ header: half
 			<div class="speaker-item {% if forloop.rindex0 < 2 %}speaker-item__last{% endif %}">
 				<div class="speaker-item__box">
 					<div class="speaker-item__image">
-						<img src="{{site.baseurl}}/assets/graphics/speakers/{{s.image}}.jpg"/>
+						<a href="{{site.baseurl}}/speakers/{{s.image}}"><img src="{{site.baseurl}}/assets/graphics/speakers/{{s.image}}.jpg"/></a>
 					</div>
 					<div class="speaker-item__info">
-						<a href=""><h3 class="speaker-item__name">{{s.title}}</h3></a>
+						<a href="{{site.baseurl}}/speakers/{{s.image}}"><h3 class="speaker-item__name">{{s.title}}</h3></a>
 						<p class="speaker-item__company">{{s.company}}</p>
 						<p class="speaker-item__role">{{s.role}}</p>
 					</div>

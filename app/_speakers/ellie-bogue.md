@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Ellie Bogue
 image: ellie-bogue
 company: 

@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: David Umhoefer
 image: david-umhoefer
 company: 

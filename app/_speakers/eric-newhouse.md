@@ -1,4 +1,7 @@
 ---
+layout: speakers
+header: half
+
 title: Eric Newhouse
 image: eric-newhouse
 company: 
