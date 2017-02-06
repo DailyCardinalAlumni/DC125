@@ -39,8 +39,12 @@ ul {
 	}
 	a {
 		color: white;
+		padding: 0.5rem 0.75rem;
+		border-radius: 8px;
 		&:hover {
 			color: white;
+			opacity: 1;
+			background-color: rgba(0,0,0,0.2);
 		}
 		&:active {
 			color: white;
@@ -64,7 +68,7 @@ ul {
 }
 
 .global-menu__divider {
-	color: white;
+	color: rgba(255,255,255,0.4);
 }
 
 .stretch {
@@ -267,6 +271,20 @@ a {
 	left: 0;
 }
 
+.footer-credits {
+	display: inline-block;
+	height: 2rem;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	color: rgba(255,255,255,0.5);
+	padding-top: 0.6rem;
+}
+
+.copyright {
+	float: right;
+	margin-left: 2rem;
+}
+
 /* ==========================================================================
    Speakers
    ========================================================================== */
@@ -282,11 +300,19 @@ a {
 }
 
 .speaker-item {
-  width: 450px;
+  width: 350px;
   height: 160px;
   padding: 2rem 0rem;
   margin-left: 2rem;
   border-bottom: 1px solid rgba(0,0,0,0.4);
+  &:hover {
+  	.speaker-item__image {
+	  	img{
+	    	-webkit-filter: none;
+	    	filter: none;
+	  	}
+  	}
+  }
 }
 
 .speaker-item__last {
@@ -317,10 +343,6 @@ a {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 		transition: all 0.4s;
-    &:hover {
-    	-webkit-filter: none;
-    	filter: none;
-    }
   }
 /*	&::before {
 		position: absolute;
@@ -339,17 +361,27 @@ a {
 	font-weight: 800;
 	font-size: 1rem;
 	margin-bottom: 0.2rem;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
 .speaker-item__info {
 	float: left;
 	margin: 1rem 0 0 2rem;
-	width: 14rem;
+	width: 8rem;
 	height: 7.75rem;
 	position: relative;
 	p {
+		font-family: "Times New Roman";
 		margin: 0;
 	}
+}
+
+.speaker-item__company {
+	font-weight: 800;
+}
+
+.speaker-item__role {
+	font-size: 0.9rem;
 }
 
 .speaker-item__footer {
