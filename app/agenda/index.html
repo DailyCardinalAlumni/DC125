@@ -27,7 +27,7 @@ header: half
 								{% for p in e.speakers %}
 									{% for s in site.speakers %}
 										{% if p == s.speakers %}
-											<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
+											<a href="{{ site.basepath }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
 										{% endif %}
 									{% endfor %}
 								{% endfor %}
@@ -60,7 +60,7 @@ header: half
 											{% for p in e.speakers %}
 												{% for s in site.speakers %}
 													{% if p == s.speakers %}
-														<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
+														<a href="{{ site.basepath }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
 													{% endif %}
 												{% endfor %}
 											{% endfor %}
@@ -82,7 +82,7 @@ header: half
 										{% for p in e.speakers %}
 											{% for s in site.speakers %}
 												{% if p == s.speakers %}
-													<a href="{{ site.baseurl }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
+													<a href="{{ site.basepath }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
 												{% endif %}
 											{% endfor %}
 										{% endfor %}

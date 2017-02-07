@@ -10,7 +10,7 @@ exclude:
 timezone: America/New_York
 highlighter: false 
 
-baseurl: ""
+basepath: "/DC125"
 
 # dailycardinalalumni.github.io/DC125
 

@@ -207,9 +207,21 @@ gulp.task('jekyll', function (done) {
 // --------------------------- Helper tasks -----------------------------------//
 // ----------------------------------------------------------------------------//
 
+// //////////////////////////////////////////////////////////////////////////////
+// -------------------------- Copy tasks --------------------------------------//
+// ----------------------------------------------------------------------------//
+
+// Copy from the .tmp to _site directory.
+// To reduce build times the assets are compiles at the same time as jekyll
+// renders the site. Once the rendering has finished the assets are copied.
+gulp.task('copy', function (done) {
+  return gulp.src('.tmp/assets/**')
+    .pipe(gulp.dest('_site/assets'));
+});
+
 gulp.task('build', ['collecticons'], function () {
   gulp.start(['vendorScripts', 'javascript', 'styles', 'jekyll'], function () {
-    gulp.start(['html', 'images'], function () {
+    gulp.start(['html', 'images', 'copy'], function () {
       return gulp.src('_site/**/*')
         .pipe($.size({title: 'build', gzip: true}))
         .pipe(exit());
