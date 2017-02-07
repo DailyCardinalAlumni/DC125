@@ -10,9 +10,9 @@ exclude:
 timezone: America/New_York
 highlighter: false 
 
-baseurl: "/DC125"
+baseurl: "dailycardinalalumni.github.io/DC125"
 
-# https://dailycardinalalumni.github.io/DC125
+# dailycardinalalumni.github.io/DC125
 
 ##
 # Collections definitions
