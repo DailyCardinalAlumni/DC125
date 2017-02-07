@@ -12,7 +12,7 @@ header: half
 
 		<div class="speaker-container">
 		{% for s in site.speakers %}
-			<div class="speaker-item {% if forloop.rindex0 < 2 %}speaker-item__last{% endif %}">
+			<div class="speaker-item">
 				<div class="speaker-item__box">
 					<div class="speaker-item__image">
 						<a href="{{site.basepath}}/speakers/{{s.image}}"><img src="{{site.basepath}}/assets/graphics/speakers/{{s.image}}.jpg"/></a>

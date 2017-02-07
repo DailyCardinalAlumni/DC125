@@ -103,29 +103,19 @@ a {
 	}
 }
 
-.full-image__fix {
-	height: 38rem;
-	max-height: 100%;
-	width: 100%;
-}
-
 .full-image__container {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 40rem;
-	max-height: 100%;
-	width: 100%;
 	text-align: center;
+	position: relative;
 	background-image: url(../graphics/content/splash.jpg);
 }
 
-.full-fix__half {
-	height: 16rem;
+.full-image__container {
+	height: 40rem;
 }
 
 .full-image__half {
-	height: 16rem;
+	height: auto;
+	min-height: 16rem;
 }
 
 .full-image__button {
@@ -134,7 +124,8 @@ a {
 	color: white;
 	font-weight: 100;
 	position: absolute;
-	bottom: 9rem;
+	line-height: 1.8rem;
+	bottom: 5rem;
 	border: 1px solid darken($Orangey, 10);
 	border-radius: 4px;
 	font-size: 1rem;
@@ -187,6 +178,7 @@ a {
 
 .masthead-center {
 	top: 4rem;
+	left: 0;
 	position: absolute;
 	width: 100%;
 	text-align: center;
@@ -251,7 +243,8 @@ a {
    ========================================================================== */
 
 .content__split {
-	margin-top: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
 	font-family: "Times New Roman";
 	font-size: 1.2rem;
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -266,7 +259,6 @@ a {
 .page__footer {
 	background-color: $DarkPurp;
 	position: absolute;
-	margin-top: 6rem;
 	width: 100%;
 	left: 0;
 }
@@ -278,6 +270,12 @@ a {
 	width: 100%;
 	color: rgba(255,255,255,0.5);
 	padding-top: 0.6rem;
+}
+
+.footer-title {
+	color: rgba(255,255,255,0.8);
+	margin-top: 2rem;
+	font-size: 2rem;
 }
 
 .copyright {
