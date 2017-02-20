@@ -9,8 +9,42 @@
 	width: 100%;
 	border-bottom: 2px solid $DarkPurp;
 	box-shadow: 0 0px 10px $DarkPurp;
-	background-color: $Cardinal;
 	left: 0;
+	display: none;
+	@media screen and (min-width: 600px) {
+		background-color: $Cardinal;
+		display: block;
+	}
+}
+
+.page__resp-nav {
+	position: fixed;
+	z-index: 9999;
+	height: 2.5rem;
+	padding: 0.5rem 0;
+	width: 100%;
+	left: 0;
+	display: block;
+	background-color: $Cardinal;
+	border-bottom: 2px solid $DarkPurp;
+	h1 {
+		margin-left: 1rem;
+		float: left;
+	}
+	i {
+		margin-top: 0.5rem;
+		margin-right: 1rem;
+		float: right;
+		color: white;
+		font-size: 1.2rem;
+		&:hover {
+			cursor: pointer;
+			opacity: 0.5;
+		}
+	}
+	@media screen and (min-width: 600px) {
+		display: none;
+	}
 }
 
 body {
@@ -55,6 +89,9 @@ ul {
 		&:visited {
 			color: white;
 		}
+	}
+	@media screen and (min-width: 1000) {
+		margin: 0 auto;
 	}
 }
 

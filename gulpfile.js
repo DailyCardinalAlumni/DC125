@@ -1,7 +1,7 @@
-'use strict'
+'use strict';
 var fs = require('fs');
 var gulp = require('gulp');
-var $ = require ('gulp-load-plugins')();
+var $ = require('gulp-load-plugins')();
 var del = require('del');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
@@ -12,7 +12,7 @@ var buffer = require('vinyl-buffer');
 var sourcemaps = require('gulp-sourcemaps');
 var gutil = require('gulp-util');
 var exit = require('gulp-exit');
-var rev = require('gulp-rev')
+var rev = require('gulp-rev');
 var revReplace = require('gulp-rev-replace');
 var notifier = require('node-notifier');
 var cp = require('child_process');

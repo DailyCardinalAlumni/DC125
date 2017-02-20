@@ -10,9 +10,9 @@ exclude:
 timezone: America/New_York
 highlighter: false 
 
-basepath: "/DC125"
+basepath: ""
 
-# dailycardinalalumni.github.io/DC125
+# /DC125
 
 ##
 # Collections definitions

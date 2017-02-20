@@ -4,8 +4,8 @@ header: half
 
 title: Naomi Patton
 image: naomi-patton
-company: Weber Shandwick’s Social Impact
-role: Senior Director
+company: Weber Shandwick
+role: Vice President
 twitter: 
 website: 
 ---
