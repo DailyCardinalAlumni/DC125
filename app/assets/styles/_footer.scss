@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.page__footer {
+	background-color: $DarkPurp;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+.footer-credits {
+	display: inline-block;
+	height: 2rem;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	color: rgba(255,255,255,0.5);
+	padding-top: 0.6rem;
+}
+
+.footer-title {
+	color: rgba(255,255,255,0.8);
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+
+.copyright {
+	float: right;
+	margin-left: 2rem;
+}

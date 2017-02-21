@@ -8,6 +8,9 @@ company:
 role: 
 twitter: 
 website: 
+
+hidden: true
+
 ---
 Tom just completed his 27th season covering the Green Bay Packers for the Milwaukee Journal Sentinel. In addition to his daily beat responsibilities, he does a weekly in-season Xs and Os video with former Packers safety LeRoy Butler, connects with readers through a game day live blog and sabotages people's weekly pools with his atrocious NFL pick recommendations. He has been on the beat so long he remembers when the Packers were looking for a quarterback. 
 

@@ -1,0 +1,123 @@
+
+/* ==========================================================================
+   Events
+   ========================================================================== */
+.event-container {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	padding-bottom: 6rem;
+	padding-top: 1.5rem;
+	&::after{
+		content: "";
+		background-image: url(../graphics/content/newsprint.jpg);
+		opacity: 0.8;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+		z-index: -1;
+	}
+}
+
+.event-item {
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.4);
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	margin: 0.5rem 0;
+}
+
+.event-time {
+	padding-left: 1rem;
+	padding-top: 1.5rem;
+	font-style: italic;
+	display: inline-block;
+	font-weight: 400;
+	color: $DarkPurp;
+}
+
+.event-time__full {
+	width: 100%;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.event-time__ops {
+	width: 8rem;
+	margin: 0;
+	padding: 2rem 0 2rem 1rem;
+}
+
+.event-title {
+	font-weight: 800;
+	display: inline-block;
+}
+
+.event-title__ops {
+	margin-top: 0;
+	padding: 2rem;
+	width: 10rem;
+	background-image: url(../graphics/content/diagonal.svg);
+}
+
+.event-location {
+	padding-top: 1rem;
+	display: inline-block;
+}
+
+.event-location__ops {
+	padding-left: 2rem;
+}
+
+.event-duration {
+	font-style: italic;
+	opacity: 0.5;
+	display: inline-block;
+	margin-left: 3rem;
+}
+
+.event-description {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-family: "Times New Roman";
+}
+
+.event-details {
+	background-image: url(../graphics/content/diagonal.svg);
+	padding-left: 2rem;
+	padding-bottom: 2rem;
+}
+
+.event-details header {
+	margin-bottom: 0.5rem;
+}
+
+.event-details__split {
+	display: flex;
+	padding-bottom: 0;
+}
+
+.event-details__a {
+	flex: 1;
+	width: 50%;
+	float: left;
+	padding-bottom: 2rem;
+}
+
+.event-details__b {
+	flex: 1;
+ 	border-left: 1px solid rgba(0,0,0,0.2);
+	width: 50%;
+	float: right;
+	padding-left: 2rem;
+}
+
+.event-details__sub {
+	padding-right: 4rem;
+}
+
+.event-title a {
+	font-weight: 800;
+}
