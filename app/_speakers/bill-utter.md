@@ -4,7 +4,7 @@ header: half
 
 title: Bill Utter
 image: bill-utter
-company: FleishmanHillard
+company: Fleishman-Hillard
 role: SVP/Partner
 twitter: 
 website: 

@@ -5,7 +5,7 @@ header: half
 title: Julie Betts Testwuide
 image: julie-betts-testwuide
 company: 
-role: 
+role: Photographer
 twitter: 
 website: www.juliearts.com
 ---

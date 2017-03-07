@@ -13,66 +13,24 @@ header: half
 	<div class="inner">
 		<div class="events-container">
 
-			<img class="work-in-progress" src="{{site.baseurl}}/assets/graphics/content/wip.png" />
-
-<!-- 			{% for e in site.events %}
-
-				{% if e.split == "b" %}
-					<div class="event-details__b">
-						<header>
-							<div class="event-location">{{e.room}}</div>
-							<div class="event-duration">{{e.duration}}</div>
-						</header>
-						<div class="event-details__sub">
-							<div class="event-title"><a>{{e.title}}</a></div>
-							<div class="event-description">{{e.description}}</div>
-							<div class="event-speakers">
-								{% for p in e.speakers %}
-									{% for s in site.speakers %}
-										{% if p == s.speakers %}
-											<a href="{{ site.basepath }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
-										{% endif %}
-									{% endfor %}
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-				</div>
-
-				{% else %}
+<!-- 			<img class="work-in-progress" src="{{site.baseurl}}/assets/graphics/content/wip.png" />
+ -->
+ 			{% for e in site.events %}
+				{% if e.type == "operations" %}
 					<div class="event-item">
-
-						{% if e.type == "operations" %}
-							<div class="event-time event-time__ops">{{ e.time }}</div>
-							<div class="event-title event-title__ops">{{e.title}}</div>
-							<div class="event-location event-location__ops">{{e.room}}</div>
-
-						{% elsif e.split == "a" %}
-							<div class="event-time event-time__full">{{e.time}}</div>
-
-							<div class="event-details event-details__split">
-								<div class="event-details__a">
-									<header>
-										<div class="event-location">{{e.room}}</div>
-										<div class="event-duration">{{e.duration}}</div>
-									</header>
-									<div class="event-details__sub">
-										<div class="event-title"><a>{{e.title}}</a></div>
-										<div class="event-description">{{e.description}}</div>
-										<div class="event-speakers">
-											{% for p in e.speakers %}
-												{% for s in site.speakers %}
-													{% if p == s.speakers %}
-														<a href="{{ site.basepath }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
-													{% endif %}
-												{% endfor %}
-											{% endfor %}
-										</div>
-									</div>
-
-						{% else %}
-							<div class="event-time event-time__full">{{e.time}}</div>
-
+						<div class="event-time event-time__ops">{{ e.time }}</div>
+						<div class="event-title event-title__ops">{{e.title}}</div>
+						<div class="event-location event-location__ops">{{e.room}}</div>
+					</div>
+				{% endif %}
+				{% if e.type == "first" %}
+					<div class="event-item">
+						<div class="event-time event-time__full">{{e.time}}</div>
+					</div>
+					<div class="event-item__container">
+				{% endif %}
+				{% if e.type != "operations" %}
+						<div class="event-item event-item__card">
 							<div class="event-details">
 								<header>
 									<div class="event-location">{{e.room}}</div>
@@ -82,21 +40,24 @@ header: half
 									<div class="event-title"><a>{{e.title}}</a></div>
 									<div class="event-description">{{e.description}}</div>
 									<div class="event-speakers">
-										{% for p in e.speakers %}
-											{% for s in site.speakers %}
-												{% if p == s.speakers %}
-													<a href="{{ site.basepath }}{{ s.url }}" title="View speaker profile">{{ s.title }}</a>{{ if loop}}
-												{% endif %}
-											{% endfor %}
+										<div class="event-speakers__with">with</div>
+	                  {% for speaker in e.speakers %}
+	                    {% assign s = site.speakers | where: "title", speaker | first %}
+	                    {% if s.image %}
+	                      <a href="{{ site.baseurl }}/speakers/{{ s.image }}" title="View speaker profile">{{ speaker }}{% if forloop.last == false %}, {% endif %}</a>
+											{% else %}
+												{{ speaker }}{% if forloop.last == false %}, {% endif %}
+											{% endif %}
 										{% endfor %}
 									</div>
 								</div>
 							</div>
-						{% endif %}
-
+						</div>
+				{% endif %}
+				{% if e.type == "last" %}
 					</div>
 				{% endif %}
-			{% endfor %}-->
+			{% endfor %}
 
 		</div>
 	</div>

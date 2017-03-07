@@ -4,8 +4,8 @@ header: half
 
 title: Alex Kusters
 image: alex-kusters
-company: 
-role: 
+company: Impact Networking
+role: Sales Manager
 twitter: 
 website: 
 ---

@@ -4,8 +4,8 @@ header: half
 
 title: David Umhoefer
 image: david-umhoefer
-company: PolitiFact Wisconsin
-role: 
+company: Milwaukee Journal-Sentinel
+role: Investigative Reporter
 twitter: 
 website: 
 ---
