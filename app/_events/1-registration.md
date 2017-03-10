@@ -1,14 +1,14 @@
 ---
 title: Registration
 type: operations
-time: "9:00 - 9:30am"
-split: 
+time: "9:00 - 10:00am"
+split:
 duration: 30min
-room: Location A
+room: Hoyt Room, Vilas Hall
 speakers:
-  - Cathy Ireton
-  - Kayla Johnson
+  - Anthony Sansone
+  - Anna Jeon
 
 ---
 
-Event information will go hereeeee
+Get your packet and information on what the day's programs will bring.

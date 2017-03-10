@@ -6,8 +6,8 @@ title: Naomi Patton
 image: naomi-patton
 company: Weber Shandwick
 role: Vice President
-twitter: 
-website: 
+twitter: naomiroslyn
+website:
 ---
 Naomi Patton is a part of Weber Shandwick’s Social Impact practice, leading foundation, CSR and nonprofit account work and providing strategic counsel and support. Her journalism and communications career began at the Milwaukee Community Journal weekly newspaper and included stops at the Wisconsin State Journal and the Detroit Free Press.
 

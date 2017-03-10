@@ -4,10 +4,10 @@ header: half
 
 title: Eric Newhouse
 image: eric-newhouse
-company: 
-role: 
-twitter: 
-website: 
+company:
+role: Pulitzer Prize Winner
+twitter:
+website: http://www.ericnewhouse.com/
 ---
 Pulitzer Prize-winning journalist Eric Newhouse is the author of two books: Alcohol: Cradle to Grave and Faces of Combat: PTSD and TBI. A retired editor of the Great Falls (Mont.) Tribune, Newhouse won the Pulitzer Prize for explanatory journalism in 2000 for a 12-part series of stories on the effects of alcoholism in Montana. He also served as a juror for the 2007 and 2008 Pulitzer Prizes.
 

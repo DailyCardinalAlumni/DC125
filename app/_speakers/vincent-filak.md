@@ -6,8 +6,8 @@ title: Vincent Filak
 image: vincent-filak
 company: University of Wisconsin Oshkosh
 role: Professor, Newspaper Adviser
-twitter: 
-website: 
+twitter: vffilak
+website:
 ---
 Vincent Filak, Ph.D. is an award-winning teacher, scholar and college media adviser, who currently serves as a full professor and newspaper adviser at the University of Wisconsin Oshkosh. He has published five textbooks in the field of journalism, including “Dynamics of Media Writing” (Sage, 2016) and “Convergent Journalism” (2 nd Edition; Focal, 2015). His sixth book, “Dynamics of Media Editing” is due out in 2018.
 
