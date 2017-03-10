@@ -1,12 +1,12 @@
 ---
 title: Break
 type: operations
-time: "2:00 pm - 2:30 pm"
+time: "2:00 - 2:30pm"
 split:
 duration: 30min
 room: Anywhere you like
 speakers:
 
----
+description: "Go out and catch a break while we prepare the last talks."
 
-Go out and catch a break while we prepare the last talks.
+---

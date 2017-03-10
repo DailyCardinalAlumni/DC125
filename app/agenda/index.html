@@ -17,14 +17,12 @@ header: half
  -->
  			{% for e in site.events %}
 				{% if e.type == "operations" %}
-					<div class="event-item">
-						<div class="event-time event-time__ops">{{ e.time }}</div>
-						<div class="event-title event-title__ops">{{e.title}}</div>
-						<div class="event-location event-location__ops">{{e.room}}</div>
+					<div class="event-card">
+						<div class="event-time event-time__ops">{{ e.time }}</div><div class="event-title event-title__ops">{{e.title}}</div><div class="event-location event-location__ops">{{e.room}}</div>
 					</div>
 				{% endif %}
 				{% if e.type == "first" %}
-					<div class="event-item">
+					<div class="event-card">
 						<div class="event-time event-time__full">{{e.time}}</div>
 					</div>
 					<div class="event-item__container">

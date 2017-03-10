@@ -3,12 +3,10 @@ title: Registration
 type: operations
 time: "9:00 - 10:00am"
 split:
-duration: 30min
+duration: 30 min
 room: Hoyt Room, Vilas Hall
 speakers:
-  - Anthony Sansone
-  - Anna Jeon
+
+description: Get your packet and information on what the day's programs will bring.
 
 ---
-
-Get your packet and information on what the day's programs will bring.
