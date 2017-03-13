@@ -4,10 +4,10 @@ header: half
 
 title: Steven Reiner
 image: steven-reiner
-company: 
-role: 
-twitter: 
-website: 
+company: Stony Brook University School of Journalism
+role: Associate Professor
+twitter:
+website: https://journalism.cc.stonybrook.edu/?page_id=64
 ---
 Steven Reiner is an associate professor of Journalism at  the Stony Brook University, on Long Island, New York. Reiner is director of the school's video journalism program and  teaches both introductory and advanced broadcast journalism , as well as the school's  hallmark, internationally recognized  course in News Literacy. He served for more than a decade as a producer for the CBS News magazine program “60 Minutes, where he worked  with the legendary correspondent Morley Safer. Reiner is the recipient of several national Emmy Awards.
 

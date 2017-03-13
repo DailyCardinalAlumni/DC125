@@ -4,10 +4,10 @@ header: half
 
 title: Samuel G. Freedman
 image: samuel-g-freedman
-company: 
-role: 
-twitter: 
-website: 
+company: Columbia Graduate School of Journalism
+role: Professor
+twitter: SamuelGFreedman
+website: http://www.samuelfreedman.com/index.html
 ---
 Samuel G. Freedman is an award-winning author, columnist, and educator. The author of eight books, he has been a finalist for the Pulitzer Prize and the National Book Award and has won the Helen M. Bernstein Award for Excellence in Journalism and the National Jewish Book Award. He recently concluded a 12-year stint as a columnist for The New York Times. A tenured professor of journalism at Columbia University, Freedman has been named the nation's Outstanding Journalism Educator by Sigma Delta Chi and received Columbia's Presidential Award for Outstanding Teaching.
 

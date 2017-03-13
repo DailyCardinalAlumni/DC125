@@ -6,8 +6,8 @@ title: David Umhoefer
 image: david-umhoefer
 company: Milwaukee Journal-Sentinel
 role: Investigative Reporter
-twitter: 
-website: 
+twitter: GovWatcher
+website:
 ---
 Dave Umhoefer learned the highs and lows of a newsman as Daily Cardinal city editor in 1982-'83. It earned him a reporting job at the West Bend News, where he competed with reporters from The Milwaukee Journal, the paper he grew up idolizing as a kid in La Crosse, Wis.
 

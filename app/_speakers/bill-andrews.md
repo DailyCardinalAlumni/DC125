@@ -6,8 +6,8 @@ title: Bill Andrews
 image: bill-andrews
 company: Discover Magazine
 role: Senior Associate Editor
-twitter: 
-website: 
+twitter: unique9881
+website:
 ---
 Bill is a senior associate editor at Discover magazine, where he writes and edits stories about all the sciences, but his specialty is space and astronomy. Before joining the Discover staff, he worked as an editor at Astronomy magazine and wrote for Mayo Clinic and the New York Times Student Journalism Institute. He got his bachelor's degree at MIT and his master's at UW-Madison, where he was science editor at The Daily Cardinal. Naturally, he has a favorite equation, and can even juggle.
 
