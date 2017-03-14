@@ -1,11 +1,16 @@
 <footer class="page__footer" role="contentinfo">
   <div class="inner">
-		<h3 class="footer-title">Get in Touch</h3>
+  	<section class="footer-contact">
+	  	<img src="{{ site.baseurl }}/assets/graphics/content/mail-us.png" class="mail-bird"></img>
+			<h3 class="footer-title">
+				Get in Touch!
+				<p><a href="http://www.dailycardinal.net/" title="Visit DCCA website">Daily Cardinal Alumni Association</a></p>
+			</h3>
+		</section>
   </div>
   <div class="footer-credits">
   	<div class="inner">
-	  	<a href="http://www.dailycardinal.net/" title="Visit DCCA website">Daily Cardinal Alumni Association</a>
-	  	<span class="copyright">&copy; 2015-{{ site.time | date: '%Y' }}</span>
+	  	<span class="copyright">&copy; {{ site.time | date: '%Y' }}</span>
   	</div>
   </div>
 </footer>

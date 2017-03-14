@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .page__footer {
+	border-top: 2px solid darken($DarkPurp, 20);
 	background-color: $DarkPurp;
 	position: absolute;
 	width: 100%;
@@ -16,15 +17,20 @@
 	width: 100%;
 	color: rgba(255,255,255,0.5);
 	padding-top: 0.6rem;
+	text-align: center;
+	margin-top: 2rem;
 }
 
 .footer-title {
 	color: rgba(255,255,255,0.8);
 	margin-top: 2rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .copyright {
-	float: right;
-	margin-left: 2rem;
+}
+
+.footer-contact {
+	margin-top: 4rem;
+	text-align: center;
 }
