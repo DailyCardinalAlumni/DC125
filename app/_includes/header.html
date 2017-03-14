@@ -9,9 +9,9 @@
         <li class="global-menu__divider">|</li>
         <li><a href="{{ site.basepath }}/speakers" title="View page" class="global-menu__link"><span>Speakers</span></a></li>
         <li class="global-menu__divider">|</li>
-        <li><a href="{{ site.basepath }}/gala" title="View page" class="global-menu__link"><span>Alumni Gala</span></a></li>
+<!--         <li><a href="{{ site.basepath }}/gala" title="View page" class="global-menu__link"><span>Alumni Gala</span></a></li>
         <li class="global-menu__divider">|</li>
-        <li><a href="http://events.r20.constantcontact.com/register/event?oeidk=a07edpk6ip4640310ca&llr=mw67ludab" title="View page" class="global-menu__link"><span>Register</span></a></li>
+ -->        <li><a href="http://events.r20.constantcontact.com/register/event?oeidk=a07edpk6ip4640310ca&llr=mw67ludab" title="View page" class="global-menu__link"><span>Register</span></a></li>
 <!--         <li class="global-menu__divider">|</li>
         <li><a href="{{ site.basepath }}/donate" title="View section" class="global-menu__link"><span>Donate</span></a></li>
  -->        <span class="stretch"></span>
@@ -30,8 +30,8 @@
       <ul class="sub-menu hidden" id="sub-menu">
         <a href="{{ site.basepath }}/agenda" title="View page" class="global-menu__link"><li><span>Agenda</span></li></a>
         <a href="{{ site.basepath }}/speakers" title="View page" class="global-menu__link"><li><span>Speakers</span></li></a>
-        <a href="{{ site.basepath }}/gala" title="View page" class="global-menu__link"><li><span>Alumni Gala</span></li></a>
-        <a href="http://events.r20.constantcontact.com/register/event?oeidk=a07edpk6ip4640310ca&llr=mw67ludab" title="View page" class="global-menu__link"><li><span>RSVP Gala</span></li></a>
+<!--         <a href="{{ site.basepath }}/gala" title="View page" class="global-menu__link"><li><span>Alumni Gala</span></li></a>
+ -->        <a href="http://events.r20.constantcontact.com/register/event?oeidk=a07edpk6ip4640310ca&llr=mw67ludab" title="View page" class="global-menu__link"><li><span>RSVP Gala</span></li></a>
         <a href="{{ site.basepath }}/talks" title="View page" class="global-menu__link"><li><span>RSVP Talks</span></li></a>
 <!--         <a href="{{ site.basepath }}/donate" title="View section" class="global-menu__link"><li><span>Donate</span></li></a>
  -->      </ul>
@@ -49,7 +49,7 @@
     <img src='{{site.basepath}}/assets/graphics/content/logo.svg'/>
   </div>
   <div class="masthead-right">
-    April 1-2
+    April 1, 2017
   </div>
   </div>
 </div>
@@ -57,6 +57,6 @@
 <div class="full-image__fix full-fix__{{page.header}}"></div>
 <div class="full-image__container full-image__{{page.header}}">
   {% if page.header == 'full' %}
-  <button class="full-image__button">Join the Party</button>
+  <a href="{{ site.baseurl }}/agenda"><button class="full-image__button">Join the Party</button></a>
   {% endif %}
 </div>

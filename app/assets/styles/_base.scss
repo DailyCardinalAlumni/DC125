@@ -42,13 +42,13 @@ a {
 
 .full-image__button {
 	z-index: 1;
-	background-color: $Orangey;
+	background-color: lighten($DarkPurp, 10);
 	color: white;
 	font-weight: 100;
 	position: absolute;
 	line-height: 1.8rem;
 	bottom: 5rem;
-	border: 1px solid darken($Orangey, 10);
+	border: 1px solid $DarkPurp;
 	border-radius: 4px;
 	font-size: 1rem;
 	letter-spacing: 0.15rem;

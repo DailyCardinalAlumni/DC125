@@ -5,7 +5,7 @@ header: half
 title: Ellie Bogue
 image: ellie-bogue
 company: St. Joseph Community Health Foundation
-role: Communications Coordinator
+role: Comm Coordinator
 twitter: 
 website: 
 ---
