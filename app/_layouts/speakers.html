@@ -12,7 +12,7 @@ layout: default
 			<div class="speaker-page__right">
 				<p class="speaker-page__type">Speaker</p>
 				<h2 class="speaker-page__name">{{ page.title }}</h2>
-				<p class="speaker-page__company">{{ page.company }}{% if page.role %},{% endif %} {{ page.role }}</p>
+				<p class="speaker-page__company">{{ page.company }}{% if page.role and page.company %},{% endif %} {{ page.role }}</p>
 			</div>
 		</div>
 	</header>

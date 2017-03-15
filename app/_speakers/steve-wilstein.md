@@ -4,7 +4,7 @@ header: half
 
 title: Steve Wilstein
 image: steve-wilstein
-company: 
+company:
 role: Author, Sportswriter and Photographer
 twitter:
 website:
