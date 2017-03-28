@@ -74,20 +74,21 @@
 	height: 7.75rem;
 	position: relative;
 	p {
-		font-family: "Times New Roman";
+		font-family: $base-font-family;
 		margin: 0;
 	}
 }
 
 .speaker-item__company {
 	padding: 0.25rem 0;
-  font-size: 0.9rem;
-	line-height: 1.1rem;
+  font-size: 0.8rem;
+	line-height: 1rem;
 }
 
 .speaker-item__role {
-	font-size: 0.9rem;
-	line-height: 1.1rem;
+	font-size: 0.8rem;
+	line-height: 1rem;
+  font-weight: 500;
 }
 
 .speaker-item__footer {
