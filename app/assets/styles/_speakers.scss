@@ -81,12 +81,13 @@
 
 .speaker-item__company {
 	padding: 0.25rem 0;
-	font-weight: 800;
-	line-height: 1.3rem;
+  font-size: 0.9rem;
+	line-height: 1.1rem;
 }
 
 .speaker-item__role {
 	font-size: 0.9rem;
+	line-height: 1.1rem;
 }
 
 .speaker-item__footer {
@@ -198,14 +199,14 @@
 		display: inline-block;
 		width: auto;
 		margin-left: 1.5rem;
-	}	
+	}
 }
 
 .speaker-page__type {
 	font-size: 1.5rem;
 	font-weight: 100;
 	font-style: italic;
-	font-family: "Times New Roman";
+	font-family: $base-font-family;
 	opacity: 0.5;
 	margin-bottom: 0;
 }
@@ -213,5 +214,5 @@
 .speaker-page__company {
 	font-size: 1.4rem;
 	color: $MidGrey;
-	font-family: "Times New Roman";
+	font-family: $base-font-family;
 }
