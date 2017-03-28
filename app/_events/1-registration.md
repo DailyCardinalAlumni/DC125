@@ -4,9 +4,9 @@ type: operations
 time: "9:00 - 10:00am"
 split:
 duration: 30 min
-room: Hoyt Room, Vilas Hall
+room: 2nd Floor Entrance, Vilas Hall
 speakers:
 
-description:
+description: "Get your programs, badges and directions for the day."
 
 ---
