@@ -5,7 +5,7 @@ header: half
 title: Christopher Guess
 image: chris-guess
 company: International Center for Journalists
-role: ICFJ Knight Fellow, Eastern Europe & Eurasia
+role: Knight Fellow, Eastern Europe & Eurasia
 twitter: cguess
 website: http://www.tryandguess.com/
 ---
